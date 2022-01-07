@@ -1,3 +1,7 @@
+# https://ia600801.us.archive.org/7/items/MIT6.00SCS11/MIT6_00SCS11_lec03_300k.mp4
+# 19:25
+
+
 ## find the cube root of a perfect cube
 
 # What values are gurantee to stop the program?
@@ -14,7 +18,7 @@
 
 #Exhaustive enumeration
 
-'''
+
 x = int(input("Enter an integer: "))
 ans = 0
 while ans*ans*ans < abs(x):
@@ -26,14 +30,15 @@ else:
     if x < 0:
         ans = -ans
     print("CUBE Root of " + str(x) + " is " + str(ans))
-'''
+
 
 
 
 ## Program abstraction
 ## range function returns tuple(x, y - 1)
-x = int(input("Enter an integer: "))
+## break exits the inner most loop for nested for loops
 
+x = int(input("Enter an integer: "))
 ans = 0
 for ans in range(0, abs(x) + 1):
     if ans**3 == abs(x):
@@ -44,4 +49,5 @@ else:
     if x < 0:
         ans = -ans
     print("Cube root of " + str(x) + " is " + str(ans))
+
     
