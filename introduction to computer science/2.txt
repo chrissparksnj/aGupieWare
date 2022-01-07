@@ -1,0 +1,28 @@
+IDLE  - integrated development environment
+	- specialized text editor
+	- highlighting, smart indent, shell
+	- environment that interprets code
+	- syntax highlighting
+	- integrated debugger
+
+Objects
+	- every thing in python is an object
+	- each object has a type
+	- two types (scalar & non-scalar)
+	- scalars are INDIVISIBLE
+	
+Scalars
+	- ints (integers)
+	- float (floats) 
+	- bool (bool) 
+
+Non-Scalars
+	- str (string)
+
+Expression - sequence of operands & operators
+	- 3 + 2
+	- 3 / 2 
+	* division should be done with floating point numbers
+	
+"+" is a overloaded operators have a meaning that depends on the type of operands
+	

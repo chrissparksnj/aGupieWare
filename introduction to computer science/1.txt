@@ -1,0 +1,28 @@
+Introduction
+
+- Two sets of knowledge
+
+	- Declaritive ( statements of fact. a good healthcare plan improves quality of healthcare )
+			  ( y is the sqroot of x if and only if y*y=x                                 )
+
+	- Imperative  ( how to solve for something    )
+			  ( how to make a cake            )
+			  ( start with g,
+			    if g*g is close enough to x,
+			    g new = (g old + x/g old) / 2 )
+
+	- Algorithm   ( how to perform a computation         )
+			  ( algorithm converged when it's halted )
+
+	- Fixed program computers ( designed to do very specific things )
+					  ( solved systems of linear equations  ) 
+
+	- Stored Program Computer ( instructions are same as data ) 
+
+	- Interpreter ( execute any legal set of instructions ) 
+
+
+Python
+	- Syntax           ( which sequences of chars and symbols constitute a well formed string )
+	- Static Semantics ( which wellformed strings have meaning ) 
+	- Semantics        ( what that meaning is )
