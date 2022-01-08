@@ -18,7 +18,7 @@
 
 #Exhaustive enumeration
 
-
+'''
 x = int(input("Enter an integer: "))
 ans = 0
 while ans*ans*ans < abs(x):
@@ -31,13 +31,13 @@ else:
         ans = -ans
     print("CUBE Root of " + str(x) + " is " + str(ans))
 
-
+'''
 
 
 ## Program abstraction
 ## range function returns tuple(x, y - 1)
 ## break exits the inner most loop for nested for loops
-
+'''
 x = int(input("Enter an integer: "))
 ans = 0
 for ans in range(0, abs(x) + 1):
@@ -49,5 +49,36 @@ else:
     if x < 0:
         ans = -ans
     print("Cube root of " + str(x) + " is " + str(ans))
+'''
+## Approximation - finding answer that is good enough
+## Define how good of a approximation were willing to accept
+## Find a y such that y * y = x +/- Epsilon
 
+x = 25
+epsilon = 0.01
+numGuesses = 0
+ans = 0.0
+
+while abs(ans**2 -x) >= epsilon and ans <= x:
+    ans += 0.00001
+    numGuesses +=1
+print("Numguesses = ", numGuesses)
+
+if abs(ans**2 - x) >= epsilon:
+    print("Failed on the sqroot of", x)
+else:
+    print(ans, " is close to the sqroot of", x)
     
+
+
+
+
+
+
+
+
+
+
+
+
+
